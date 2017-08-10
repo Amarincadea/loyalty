@@ -1,0 +1,315 @@
+<?php
+
+namespace Login\LoginBundle\Entity;
+
+/**
+ * Referal
+ */
+class Referal
+{
+    /**
+     * @var integer
+     */
+    private $jobId;
+
+    /**
+     * @var string
+     */
+    private $name;
+
+    /**
+     * @var string
+     */
+    private $email;
+
+    /**
+     * @var integer
+     */
+    private $contactNo;
+
+    /**
+     * @var string
+     */
+    private $resume;
+
+    /**
+     * @var string
+     */
+    private $uploadTime;
+
+    /**
+     * @var integer
+     */
+    private $referalId;
+
+
+    /**
+     * Set jobId
+     *
+     * @param integer $jobId
+     *
+     * @return Referal
+     */
+    public function setJobId($jobId)
+    {
+        $this->jobId = $jobId;
+
+        return $this;
+    }
+
+    /**
+     * Get jobId
+     *
+     * @return integer
+     */
+    public function getJobId()
+    {
+        return $this->jobId;
+    }
+
+    /**
+     * Set name
+     *
+     * @param string $name
+     *
+     * @return Referal
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    /**
+     * Get name
+     *
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * Set email
+     *
+     * @param string $email
+     *
+     * @return Referal
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+
+        return $this;
+    }
+
+    /**
+     * Get email
+     *
+     * @return string
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    /**
+     * Set contactNo
+     *
+     * @param integer $contactNo
+     *
+     * @return Referal
+     */
+    public function setContactNo($contactNo)
+    {
+        $this->contactNo = $contactNo;
+
+        return $this;
+    }
+
+    /**
+     * Get contactNo
+     *
+     * @return integer
+     */
+    public function getContactNo()
+    {
+        return $this->contactNo;
+    }
+
+    /**
+     * Set resume
+     *
+     * @param string $resume
+     *
+     * @return Referal
+     */
+    public function setResume($resume)
+    {
+        $this->resume = $resume;
+
+        return $this;
+    }
+
+    /**
+     * Get resume
+     *
+     * @return string
+     */
+    public function getResume()
+    {
+        return $this->resume;
+    }
+
+    /**
+     * Set uploadTime
+     *
+     * @param string $uploadTime
+     *
+     * @return Referal
+     */
+    public function setUploadTime($uploadTime)
+    {
+        $this->uploadTime = $uploadTime;
+
+        return $this;
+    }
+
+    /**
+     * Get uploadTime
+     *
+     * @return string
+     */
+    public function getUploadTime()
+    {
+        return $this->uploadTime;
+    }
+
+    /**
+     * Get referalId
+     *
+     * @return integer
+     */
+    public function getReferalId()
+    {
+        return $this->referalId;
+    }
+    /**
+     * @var string
+     */
+    private $referalStatus;
+
+
+    /**
+     * Set referalStatus
+     *
+     * @param string $referalStatus
+     *
+     * @return Referal
+     */
+    public function setReferalStatus($referalStatus)
+    {
+        $this->referalStatus = $referalStatus;
+
+        return $this;
+    }
+
+    /**
+     * Get referalStatus
+     *
+     * @return string
+     */
+    public function getReferalStatus()
+    {
+        return $this->referalStatus;
+    }
+    /**
+     * @var string
+     */
+    private $referredUsername;
+
+
+    /**
+     * Set referredUsername
+     *
+     * @param string $referredUsername
+     *
+     * @return Referal
+     */
+    public function setReferredUsername($referredUsername)
+    {
+        $this->referredUsername = $referredUsername;
+
+        return $this;
+    }
+
+    /**
+     * Get referredUsername
+     *
+     * @return string
+     */
+    public function getReferredUsername()
+    {
+        return $this->referredUsername;
+    }
+    /**
+     * @var integer
+     */
+    private $pan;
+
+    /**
+     * @var string
+     */
+    private $source;
+
+
+    /**
+     * Set pan
+     *
+     * @param integer $pan
+     *
+     * @return Referal
+     */
+    public function setPan($pan)
+    {
+        $this->pan = $pan;
+
+        return $this;
+    }
+
+    /**
+     * Get pan
+     *
+     * @return integer
+     */
+    public function getPan()
+    {
+        return $this->pan;
+    }
+
+    /**
+     * Set source
+     *
+     * @param string $source
+     *
+     * @return Referal
+     */
+    public function setSource($source)
+    {
+        $this->source = $source;
+
+        return $this;
+    }
+
+    /**
+     * Get source
+     *
+     * @return string
+     */
+    public function getSource()
+    {
+        return $this->source;
+    }
+}

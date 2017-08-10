@@ -1,0 +1,275 @@
+<?php
+
+namespace Login\LoginBundle\Entity;
+
+/**
+ * Job
+ */
+class Job
+{
+    /**
+     * @var string
+     */
+    private $jobStatus;
+    /**
+     * @var string
+     */
+    private $jobTitle;
+
+    /**
+     * @var string
+     */
+    private $jobExperienceRange1;
+
+    /**
+     * @var string
+     */
+    private $jobExperienceRange2;
+
+    /**
+     * @var string
+     */
+    private $jobDepartment;
+
+    /**
+     * @var string
+     */
+    private $jobPosition;
+
+    /**
+     * @var string
+     */
+    private $jobDescription;
+
+    /**
+     * @var integer
+     */
+    private $jobId;
+
+    /**
+     * @return string
+     */
+    public function getJobStatus(): string
+    {
+        return $this->jobStatus;
+    }
+
+    /**
+     * @param string $jobStatus
+     */
+    public function setJobStatus(string $jobStatus)
+    {
+        $this->jobStatus = $jobStatus;
+    }
+    /**
+     * Set jobTitle
+     *
+     * @param string $jobTitle
+     *
+     * @return Job
+     */
+    public function setJobTitle($jobTitle)
+    {
+        $this->jobTitle = $jobTitle;
+
+        return $this;
+    }
+
+    /**
+     * Get jobTitle
+     *
+     * @return string
+     */
+    public function getJobTitle()
+    {
+        return $this->jobTitle;
+    }
+
+    /**
+     * Set jobExperienceRange1
+     *
+     * @param string $jobExperienceRange1
+     *
+     * @return Job
+     */
+    public function setJobExperienceRange1($jobExperienceRange1)
+    {
+        $this->jobExperienceRange1 = $jobExperienceRange1;
+
+        return $this;
+    }
+
+    /**
+     * Get jobExperienceRange1
+     *
+     * @return string
+     */
+    public function getJobExperienceRange1()
+    {
+        return $this->jobExperienceRange1;
+    }
+
+    /**
+     * Set jobExperienceRange2
+     *
+     * @param string $jobExperienceRange2
+     *
+     * @return Job
+     */
+    public function setJobExperienceRange2($jobExperienceRange2)
+    {
+        $this->jobExperienceRange2 = $jobExperienceRange2;
+
+        return $this;
+    }
+
+    /**
+     * Get jobExperienceRange2
+     *
+     * @return string
+     */
+    public function getJobExperienceRange2()
+    {
+        return $this->jobExperienceRange2;
+    }
+
+    /**
+     * Set jobDepartment
+     *
+     * @param string $jobDepartment
+     *
+     * @return Job
+     */
+    public function setJobDepartment($jobDepartment)
+    {
+        $this->jobDepartment = $jobDepartment;
+
+        return $this;
+    }
+
+    /**
+     * Get jobDepartment
+     *
+     * @return string
+     */
+    public function getJobDepartment()
+    {
+        return $this->jobDepartment;
+    }
+
+    /**
+     * Set jobPosition
+     *
+     * @param string $jobPosition
+     *
+     * @return Job
+     */
+    public function setJobPosition($jobPosition)
+    {
+        $this->jobPosition = $jobPosition;
+
+        return $this;
+    }
+
+    /**
+     * Get jobPosition
+     *
+     * @return string
+     */
+    public function getJobPosition()
+    {
+        return $this->jobPosition;
+    }
+
+    /**
+     * Set jobDescription
+     *
+     * @param string $jobDescription
+     *
+     * @return Job
+     */
+    public function setJobDescription($jobDescription)
+    {
+        $this->jobDescription = $jobDescription;
+
+        return $this;
+    }
+
+    /**
+     * Get jobDescription
+     *
+     * @return string
+     */
+    public function getJobDescription()
+    {
+        return $this->jobDescription;
+    }
+
+    /**
+     * Get jobId
+     *
+     * @return integer
+     */
+    public function getJobId()
+    {
+        return $this->jobId;
+    }
+    /**
+     * @var string
+     */
+    private $jobPriority;
+
+
+    /**
+     * Set jobPriority
+     *
+     * @param string $jobPriority
+     *
+     * @return Job
+     */
+    public function setJobPriority($jobPriority)
+    {
+        $this->jobPriority = $jobPriority;
+
+        return $this;
+    }
+
+    /**
+     * Get jobPriority
+     *
+     * @return string
+     */
+    public function getJobPriority()
+    {
+        return $this->jobPriority;
+    }
+    /**
+     * @var string
+     */
+    private $jobOpen;
+
+
+    /**
+     * Set jobOpen
+     *
+     * @param string $jobOpen
+     *
+     * @return Job
+     */
+    public function setJobOpen($jobOpen)
+    {
+        $this->jobOpen = $jobOpen;
+
+        return $this;
+    }
+
+    /**
+     * Get jobOpen
+     *
+     * @return string
+     */
+    public function getJobOpen()
+    {
+        return $this->jobOpen;
+    }
+}

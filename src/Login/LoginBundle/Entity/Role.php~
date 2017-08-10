@@ -1,0 +1,83 @@
+<?php
+
+namespace Login\LoginBundle\Entity;
+
+/**
+ * Role
+ */
+class Role
+{
+    /**
+     * @var string
+     */
+    private $roleName;
+
+    /**
+     * @var integer
+     */
+    private $roleCount;
+
+    /**
+     * @var integer
+     */
+    private $roleId;
+
+
+    /**
+     * Set roleName
+     *
+     * @param string $roleName
+     *
+     * @return Role
+     */
+    public function setRoleName($roleName)
+    {
+        $this->roleName = $roleName;
+
+        return $this;
+    }
+
+    /**
+     * Get roleName
+     *
+     * @return string
+     */
+    public function getRoleName()
+    {
+        return $this->roleName;
+    }
+
+    /**
+     * Set roleCount
+     *
+     * @param integer $roleCount
+     *
+     * @return Role
+     */
+    public function setRoleCount($roleCount)
+    {
+        $this->roleCount = $roleCount;
+
+        return $this;
+    }
+
+    /**
+     * Get roleCount
+     *
+     * @return integer
+     */
+    public function getRoleCount()
+    {
+        return $this->roleCount;
+    }
+
+    /**
+     * Get roleId
+     *
+     * @return integer
+     */
+    public function getRoleId()
+    {
+        return $this->roleId;
+    }
+}

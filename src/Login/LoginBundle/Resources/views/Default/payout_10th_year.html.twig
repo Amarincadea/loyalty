@@ -1,0 +1,77 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <br/>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+                <ul class="nav nav-pills flex-column text-white">
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-warning" href="/"><h5>My Menu</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="{{ path('profile') }}"><h5>My Profile</h5></a>
+                    </li>
+
+                </ul>
+            </nav>
+            <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">Home</li>
+                </ol>
+                {% if error is defined %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error }}
+                    </div>
+                {% endif %}
+
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="card">
+                            <h4 class="card-header">Payout Request Form</h4>
+                            <div class="card-block">
+                                <form method="post" action="{{ path('payout') }}" oninput="x.value=parseInt(b.value)*parseInt(a.value)/100; y.value=parseInt(a.value)">
+
+                                    <div class="form-group">
+                                        <label for="a">Select the percentage</label><br/>
+                                        <input type="range" class="form-control" id="a" value="" min="0" max="100" name="per">
+                                        <input type="hidden" id="b" value="{{ balance }}" name="balance">
+                                        <input type="hidden" value="{{ profile.tmDesignation }}" name="designation">
+                                        <input type="hidden" value="{{ profile.itNo }}" name="tm_id">
+                                        <input type="hidden" value="11" name="year">
+                                        <input type="hidden" value="{{ profile.tmDepartment }}" name="department">
+                                    </div>
+                                    Selected Percentage is <output name="y" for="a"></output>%(In Rupees:<output name="x" for="a b"></output>/-)
+
+                                    <br/>
+                                    <div class="modal-footer">
+                                        <button type="reset" class="btn btn-secondary">Clear</button>
+                                        <button type="submit" class="btn btn-outline-warning">Apply Now</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <script>
+                                var slider = document.getElementById('a');
+                                noUiSlider.create(slider, {
+                                    start: [100, 100],
+                                    connect: true,
+                                    step: 1,
+                                    range: {
+                                        'min': 100,
+                                        'max': 100
+                                    },
+                                    format: wNumb({
+                                        decimals: 0
+                                    })
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+{% endblock %}
+{% block javascripts %}
+{% endblock %}

@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6699503a-ed48-41ce-9124-aa6e29191016" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" phpInterpreterId="cbf29e07-2d54-47ba-9bc9-97a2c63731b9">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="incadea_lrp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
+              <caret line="884" column="67" lean-forward="false" selection-start-line="884" selection-start-column="67" selection-end-line="884" selection-end-column="67" />
+              <folding>
+                <element signature="e#1001#1024#1#PHP" expanded="true" />
+                <element signature="e#2829#2858#1#PHP" expanded="true" />
+                <element signature="e#10793#10822#1#PHP" expanded="true" />
+                <element signature="e#15625#15654#1#PHP" expanded="true" />
+                <element signature="e#17490#17516#1#PHP" expanded="true" />
+                <element signature="e#17855#17884#1#PHP" expanded="true" />
+                <element signature="e#18193#18223#1#PHP" expanded="true" />
+                <element signature="e#18629#18655#1#PHP" expanded="true" />
+                <element signature="e#22533#22559#1#PHP" expanded="true" />
+                <element signature="e#22898#22927#1#PHP" expanded="true" />
+                <element signature="e#23364#23390#1#PHP" expanded="true" />
+                <element signature="e#25073#25099#1#PHP" expanded="true" />
+                <element signature="e#26813#26840#1#PHP" expanded="true" />
+                <element signature="e#28387#28413#1#PHP" expanded="true" />
+                <element signature="e#28807#28833#1#PHP" expanded="true" />
+                <element signature="e#30516#30542#1#PHP" expanded="true" />
+                <element signature="e#32232#32259#1#PHP" expanded="true" />
+                <element signature="e#33802#33828#1#PHP" expanded="true" />
+                <element signature="e#34222#34248#1#PHP" expanded="true" />
+                <element signature="e#35931#35957#1#PHP" expanded="true" />
+                <element signature="e#37645#37672#1#PHP" expanded="true" />
+                <element signature="e#39214#39240#1#PHP" expanded="true" />
+                <element signature="e#39634#39660#1#PHP" expanded="true" />
+                <element signature="e#41343#41369#1#PHP" expanded="true" />
+                <element signature="e#43058#43085#1#PHP" expanded="true" />
+                <element signature="e#44627#44653#1#PHP" expanded="true" />
+                <element signature="e#45047#45073#1#PHP" expanded="true" />
+                <element signature="e#46756#46782#1#PHP" expanded="true" />
+                <element signature="e#48471#48498#1#PHP" expanded="true" />
+                <element signature="e#49653#54978#0#PHP" expanded="false" />
+                <element signature="e#50040#50066#1#PHP" expanded="true" />
+                <element signature="e#50461#50487#1#PHP" expanded="true" />
+                <element signature="e#52172#52198#1#PHP" expanded="true" />
+                <element signature="e#53888#53915#1#PHP" expanded="true" />
+                <element signature="e#55003#58447#0#PHP" expanded="false" />
+                <element signature="e#55265#55291#1#PHP" expanded="true" />
+                <element signature="e#55686#55712#1#PHP" expanded="true" />
+                <element signature="e#57398#57424#1#PHP" expanded="true" />
+                <element signature="e#60593#60622#1#PHP" expanded="true" />
+                <element signature="e#68904#68933#1#PHP" expanded="true" />
+                <element signature="e#74090#74119#1#PHP" expanded="true" />
+                <element signature="e#76072#76098#1#PHP" expanded="true" />
+                <element signature="e#76457#76486#1#PHP" expanded="true" />
+                <element signature="e#76811#76841#1#PHP" expanded="true" />
+                <element signature="e#77267#77293#1#PHP" expanded="true" />
+                <element signature="e#81407#81433#1#PHP" expanded="true" />
+                <element signature="e#81792#81821#1#PHP" expanded="true" />
+                <element signature="e#82282#82308#1#PHP" expanded="true" />
+                <element signature="e#84087#84113#1#PHP" expanded="true" />
+                <element signature="e#85927#85954#1#PHP" expanded="true" />
+                <element signature="e#87601#87627#1#PHP" expanded="true" />
+                <element signature="e#88045#88071#1#PHP" expanded="true" />
+                <element signature="e#89850#89876#1#PHP" expanded="true" />
+                <element signature="e#91666#91693#1#PHP" expanded="true" />
+                <element signature="e#93336#93362#1#PHP" expanded="true" />
+                <element signature="e#93780#93806#1#PHP" expanded="true" />
+                <element signature="e#95585#95611#1#PHP" expanded="true" />
+                <element signature="e#97399#97426#1#PHP" expanded="true" />
+                <element signature="e#99068#99094#1#PHP" expanded="true" />
+                <element signature="e#99512#99538#1#PHP" expanded="true" />
+                <element signature="e#101317#101343#1#PHP" expanded="true" />
+                <element signature="e#103132#103159#1#PHP" expanded="true" />
+                <element signature="e#104797#104823#1#PHP" expanded="true" />
+                <element signature="e#105241#105267#1#PHP" expanded="true" />
+                <element signature="e#107046#107072#1#PHP" expanded="true" />
+                <element signature="e#108861#108888#1#PHP" expanded="true" />
+                <element signature="e#110530#110556#1#PHP" expanded="true" />
+                <element signature="e#110975#111001#1#PHP" expanded="true" />
+                <element signature="e#112782#112808#1#PHP" expanded="true" />
+                <element signature="e#114598#114625#1#PHP" expanded="true" />
+                <element signature="e#116123#116149#1#PHP" expanded="true" />
+                <element signature="e#116544#116570#1#PHP" expanded="true" />
+                <element signature="e#118256#118282#1#PHP" expanded="true" />
+                <element signature="e#120092#120115#1#PHP" expanded="true" />
+                <element signature="e#120684#120707#1#PHP" expanded="true" />
+                <element signature="e#122583#122607#1#PHP" expanded="true" />
+                <element signature="e#125279#125308#1#PHP" expanded="true" />
+                <element signature="e#127801#127830#1#PHP" expanded="true" />
+                <element signature="e#129582#129611#1#PHP" expanded="true" />
+                <element signature="e#132111#132140#1#PHP" expanded="true" />
+                <element signature="e#138687#138711#1#PHP" expanded="true" />
+                <element signature="e#139641#139668#1#PHP" expanded="true" />
+                <element signature="e#140604#140631#1#PHP" expanded="true" />
+                <element signature="e#141591#141618#1#PHP" expanded="true" />
+                <element signature="e#142601#142628#1#PHP" expanded="true" />
+                <element signature="e#143296#143323#1#PHP" expanded="true" />
+                <element signature="e#143731#143757#1#PHP" expanded="true" />
+                <element signature="e#144960#144984#1#PHP" expanded="true" />
+                <element signature="e#147219#147248#1#PHP" expanded="true" />
+                <element signature="e#147691#147715#1#PHP" expanded="true" />
+                <element signature="e#147974#148000#1#PHP" expanded="true" />
+                <element signature="e#148531#148561#1#PHP" expanded="true" />
+                <element signature="e#148885#148911#1#PHP" expanded="true" />
+                <element signature="e#149356#149382#1#PHP" expanded="true" />
+                <element signature="e#149704#149730#1#PHP" expanded="true" />
+                <element signature="e#151126#151152#1#PHP" expanded="true" />
+                <element signature="e#151627#151653#1#PHP" expanded="true" />
+                <element signature="e#151975#152001#1#PHP" expanded="true" />
+                <element signature="e#153396#153422#1#PHP" expanded="true" />
+                <element signature="e#153897#153923#1#PHP" expanded="true" />
+                <element signature="e#154245#154271#1#PHP" expanded="true" />
+                <element signature="e#155666#155692#1#PHP" expanded="true" />
+                <element signature="e#156167#156193#1#PHP" expanded="true" />
+                <element signature="e#156515#156541#1#PHP" expanded="true" />
+                <element signature="e#157936#157962#1#PHP" expanded="true" />
+                <element signature="e#158437#158463#1#PHP" expanded="true" />
+                <element signature="e#158785#158811#1#PHP" expanded="true" />
+                <element signature="e#160206#160232#1#PHP" expanded="true" />
+                <element signature="e#160708#160734#1#PHP" expanded="true" />
+                <element signature="e#161057#161083#1#PHP" expanded="true" />
+                <element signature="e#162480#162506#1#PHP" expanded="true" />
+                <element signature="e#162983#163009#1#PHP" expanded="true" />
+                <element signature="e#163332#163358#1#PHP" expanded="true" />
+                <element signature="e#164756#164782#1#PHP" expanded="true" />
+                <element signature="e#171278#171305#1#PHP" expanded="true" />
+                <element signature="e#173321#173350#1#PHP" expanded="true" />
+                <element signature="e#180493#180522#1#PHP" expanded="true" />
+                <element signature="e#182936#182963#1#PHP" expanded="true" />
+                <element signature="e#186596#186619#1#PHP" expanded="true" />
+                <element signature="e#188502#188532#1#PHP" expanded="true" />
+                <marker date="1502258524274" expanded="true" signature="125375:125829" ph="SELECT * FRO... LoginLoginBundle" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fourth_year.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/fourth_year.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hr_manager.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/hr_manager.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ninth_year.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/ninth_year.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seventh_year.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/seventh_year.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sixth_year.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/sixth_year.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="super_admin.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/super_admin.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="team_member.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/team_member.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tenth_year.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/tenth_year.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>value=</find>
+      <find>dh_optin_a</find>
+      <find>hr_optin_app</find>
+      <find>hr_optin</find>
+      <find>dh_optin</find>
+      <find>dh_optin_</find>
+      <find>payout</find>
+      <find>dh_op</find>
+      <find>department_head</find>
+      <find>department_details</find>
+      <find>$department_details</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/dh_account.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/fm_account.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_error.twig.html" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_error.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/hr_payout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/fm_payout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_status_5th.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_status.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/sample.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Model/Login.php" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/hr_account.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/lrp.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/lrp_edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/app_users.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/login_user_edit.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/department.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/login_users.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/designation.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/super_account.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/super_optin.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_10th_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_9th_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_8th_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_7th_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_6th_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_5th_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/super_payout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/budget_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Entity/Department.php" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/hr_optin.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/dh_optin.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/dh_payout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/department_head.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/admin.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/before_loyalty.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/eight_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/eleventh_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/fifth_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/finance_manager.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/fourth_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/hr_manager.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/ninth_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/seventh_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/sixth_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/super_admin.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/tenth_year.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/team_member.html.twig" />
+        <option value="$PROJECT_DIR$/src/Login/LoginBundle/Controller/DefaultController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control FlowPHP</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Login" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoginBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Login" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoginBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Default" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Login" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoginBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Login" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LoginBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="incadea_lrp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IOT" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\sand_box\incadea_rtp\src\Login\LoginBundle" />
+      <recent name="C:\xampp\htdocs\sand_box\incadea_rtp\src\Login\LoginBundle\Resources\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6699503a-ed48-41ce-9124-aa6e29191016" name="Default" comment="" />
+      <created>1499073656967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499073656967</updated>
+      <workItem from="1499073658109" duration="1660000" />
+      <workItem from="1499075439305" duration="1792000" />
+      <workItem from="1499077253436" duration="1787000" />
+      <workItem from="1499079059864" duration="1833000" />
+      <workItem from="1499080919014" duration="1791000" />
+      <workItem from="1499082763368" duration="1770000" />
+      <workItem from="1499084594070" duration="1790000" />
+      <workItem from="1499086403140" duration="1012000" />
+      <workItem from="1499141837510" duration="1275000" />
+      <workItem from="1499143636551" duration="1808000" />
+      <workItem from="1499145462069" duration="1792000" />
+      <workItem from="1499147271368" duration="1827000" />
+      <workItem from="1499149118526" duration="1788000" />
+      <workItem from="1499150924725" duration="1791000" />
+      <workItem from="1499152733933" duration="1518000" />
+      <workItem from="1499157937065" duration="1788000" />
+      <workItem from="1499159742912" duration="1984000" />
+      <workItem from="1499162727513" duration="1790000" />
+      <workItem from="1499164536586" duration="803000" />
+      <workItem from="1499169104612" duration="1793000" />
+      <workItem from="1499170915403" duration="1790000" />
+      <workItem from="1499172723885" duration="1793000" />
+      <workItem from="1499174536648" duration="284000" />
+      <workItem from="1499226938779" duration="880000" />
+      <workItem from="1499227845241" duration="1791000" />
+      <workItem from="1499229660375" duration="1786000" />
+      <workItem from="1499231467425" duration="1788000" />
+      <workItem from="1499233275162" duration="1668000" />
+      <workItem from="1499235093786" duration="1790000" />
+      <workItem from="1499236901228" duration="1789000" />
+      <workItem from="1499238708119" duration="1851000" />
+      <workItem from="1499240580859" duration="772000" />
+      <workItem from="1499243924441" duration="1481000" />
+      <workItem from="1499246317979" duration="1819000" />
+      <workItem from="1499248155028" duration="1793000" />
+      <workItem from="1499249966637" duration="1877000" />
+      <workItem from="1499251861620" duration="1095000" />
+      <workItem from="1499254539931" duration="1790000" />
+      <workItem from="1499256347609" duration="1156000" />
+      <workItem from="1499314128356" duration="1145000" />
+      <workItem from="1499315936197" duration="1801000" />
+      <workItem from="1499317754782" duration="1789000" />
+      <workItem from="1499319563953" duration="1788000" />
+      <workItem from="1499321370988" duration="1807000" />
+      <workItem from="1499323198797" duration="1764000" />
+      <workItem from="1499325045462" duration="1168000" />
+      <workItem from="1499329989026" duration="747000" />
+      <workItem from="1499332797300" duration="1786000" />
+      <workItem from="1499334607690" duration="1789000" />
+      <workItem from="1499336418327" duration="1820000" />
+      <workItem from="1499338256369" duration="2085000" />
+      <workItem from="1499344761868" duration="1198000" />
+      <workItem from="1499358858186" duration="1667000" />
+      <workItem from="1499360544671" duration="576000" />
+      <workItem from="1499400008826" duration="1787000" />
+      <workItem from="1499401815468" duration="1920000" />
+      <workItem from="1499403756235" duration="2184000" />
+      <workItem from="1499406535750" duration="601000" />
+      <workItem from="1499410341314" duration="423000" />
+      <workItem from="1499417129260" duration="628000" />
+      <workItem from="1499419178681" duration="868000" />
+      <workItem from="1499423735432" duration="986000" />
+      <workItem from="1499494456197" duration="624000" />
+      <workItem from="1499498715149" duration="599000" />
+      <workItem from="1499514320641" duration="554000" />
+      <workItem from="1499591337569" duration="6000" />
+      <workItem from="1499663522698" duration="1032000" />
+      <workItem from="1499664571722" duration="1953000" />
+      <workItem from="1499667057526" duration="660000" />
+      <workItem from="1499668904347" duration="599000" />
+      <workItem from="1499672591258" duration="599000" />
+      <workItem from="1499676537232" duration="610000" />
+      <workItem from="1499678350883" duration="608000" />
+      <workItem from="1499680833693" duration="28000" />
+      <workItem from="1499685133684" duration="1154000" />
+      <workItem from="1499686306725" duration="1242000" />
+      <workItem from="1499689169983" duration="721000" />
+      <workItem from="1499697111123" duration="1221000" />
+      <workItem from="1499698928617" duration="1359000" />
+      <workItem from="1499701487999" duration="1791000" />
+      <workItem from="1499703301540" duration="1788000" />
+      <workItem from="1499705124224" duration="599000" />
+      <workItem from="1499746424563" duration="1785000" />
+      <workItem from="1499748231690" duration="599000" />
+      <workItem from="1499750040914" duration="1059000" />
+      <workItem from="1499757202258" duration="147000" />
+      <workItem from="1499835896170" duration="288000" />
+      <workItem from="1499836205618" duration="9000" />
+      <workItem from="1499836471949" duration="201000" />
+      <workItem from="1499837434806" duration="1766000" />
+      <workItem from="1499839330682" duration="35000" />
+      <workItem from="1499839383830" duration="224000" />
+      <workItem from="1499839634839" duration="1792000" />
+      <workItem from="1499841461340" duration="1825000" />
+      <workItem from="1499843305360" duration="1771000" />
+      <workItem from="1499849030662" duration="1789000" />
+      <workItem from="1499850837995" duration="1876000" />
+      <workItem from="1499852735006" duration="1789000" />
+      <workItem from="1499854543419" duration="552000" />
+      <workItem from="1499856295867" duration="855000" />
+      <workItem from="1499860710181" duration="1740000" />
+      <workItem from="1499863029148" duration="1675000" />
+      <workItem from="1499864924950" duration="599000" />
+      <workItem from="1499918741109" duration="1587000" />
+      <workItem from="1499922514226" duration="1786000" />
+      <workItem from="1499924321976" duration="1785000" />
+      <workItem from="1499926130047" duration="1784000" />
+      <workItem from="1499927947622" duration="1794000" />
+      <workItem from="1499929800546" duration="1742000" />
+      <workItem from="1499935319199" duration="1093000" />
+      <workItem from="1499937135683" duration="134000" />
+      <workItem from="1499938342424" duration="583000" />
+      <workItem from="1499938950585" duration="1785000" />
+      <workItem from="1499940759413" duration="1827000" />
+      <workItem from="1499942643257" duration="742000" />
+      <workItem from="1499944858126" duration="1787000" />
+      <workItem from="1499946667430" duration="1866000" />
+      <workItem from="1499949916003" duration="1784000" />
+      <workItem from="1499951722076" duration="522000" />
+      <workItem from="1500004897330" duration="1624000" />
+      <workItem from="1500008807485" duration="7000" />
+      <workItem from="1500176642898" duration="1754000" />
+      <workItem from="1500178424451" duration="1859000" />
+      <workItem from="1500180393275" duration="1786000" />
+      <workItem from="1500182201006" duration="1786000" />
+      <workItem from="1500184008876" duration="1789000" />
+      <workItem from="1500185820710" duration="1784000" />
+      <workItem from="1500187630993" duration="1464000" />
+      <workItem from="1500191773486" duration="1040000" />
+      <workItem from="1500196453113" duration="1790000" />
+      <workItem from="1500198267800" duration="1788000" />
+      <workItem from="1500200078658" duration="1787000" />
+      <workItem from="1500201887419" duration="1634000" />
+      <workItem from="1500207334520" duration="1806000" />
+      <workItem from="1500209162969" duration="1792000" />
+      <workItem from="1500210989549" duration="998000" />
+      <workItem from="1500220431829" duration="1785000" />
+      <workItem from="1500222239699" duration="1787000" />
+      <workItem from="1500224049850" duration="1786000" />
+      <workItem from="1500225858753" duration="2173000" />
+      <workItem from="1500265272803" duration="1783000" />
+      <workItem from="1500267083162" duration="1785000" />
+      <workItem from="1500268890894" duration="1788000" />
+      <workItem from="1500270707319" duration="1418000" />
+      <workItem from="1500283967988" duration="339000" />
+      <workItem from="1500284339395" duration="599000" />
+      <workItem from="1500288174115" duration="1788000" />
+      <workItem from="1500289987512" duration="1787000" />
+      <workItem from="1500291795595" duration="1788000" />
+      <workItem from="1500293604065" duration="1758000" />
+      <workItem from="1500295410959" duration="1787000" />
+      <workItem from="1500297218619" duration="1697000" />
+      <workItem from="1500303232148" duration="2238000" />
+      <workItem from="1500306587042" duration="599000" />
+      <workItem from="1500339661773" duration="1790000" />
+      <workItem from="1500341471776" duration="1187000" />
+      <workItem from="1500348742119" duration="1792000" />
+      <workItem from="1500350554947" duration="1800000" />
+      <workItem from="1500352374400" duration="1792000" />
+      <workItem from="1500354186632" duration="1787000" />
+      <workItem from="1500356009487" duration="1794000" />
+      <workItem from="1500357834232" duration="616000" />
+      <workItem from="1500362108254" duration="651000" />
+      <workItem from="1500437980482" duration="657000" />
+      <workItem from="1500443704133" duration="1693000" />
+      <workItem from="1500445909825" duration="1416000" />
+      <workItem from="1500447895002" duration="598000" />
+      <workItem from="1500449905548" duration="599000" />
+      <workItem from="1500454477288" duration="694000" />
+      <workItem from="1500465380791" duration="598000" />
+      <workItem from="1500478030546" duration="126000" />
+      <workItem from="1500529804946" duration="1055000" />
+      <workItem from="1500531116392" duration="1362000" />
+      <workItem from="1500533967657" duration="637000" />
+      <workItem from="1500535183083" duration="43000" />
+      <workItem from="1500536573872" duration="38000" />
+      <workItem from="1500540473207" duration="621000" />
+      <workItem from="1500801152772" duration="1083000" />
+      <workItem from="1500802879324" duration="1769000" />
+      <workItem from="1500804669163" duration="1553000" />
+      <workItem from="1500870504332" duration="151000" />
+      <workItem from="1500873018446" duration="599000" />
+      <workItem from="1500876008415" duration="261000" />
+      <workItem from="1500876462214" duration="1527000" />
+      <workItem from="1500878024607" duration="828000" />
+      <workItem from="1500879826702" duration="1786000" />
+      <workItem from="1500881634077" duration="1041000" />
+      <workItem from="1500884405982" duration="1786000" />
+      <workItem from="1500886249204" duration="1784000" />
+      <workItem from="1500888057314" duration="1210000" />
+      <workItem from="1500901128024" duration="601000" />
+      <workItem from="1500964035086" duration="381000" />
+      <workItem from="1500966663117" duration="599000" />
+      <workItem from="1500971944575" duration="512000" />
+      <workItem from="1500975285951" duration="1116000" />
+      <workItem from="1501041790196" duration="1742000" />
+      <workItem from="1501043555911" duration="1786000" />
+      <workItem from="1501045363238" duration="1791000" />
+      <workItem from="1501047175485" duration="1788000" />
+      <workItem from="1501048983961" duration="1639000" />
+      <workItem from="1501050848432" duration="1837000" />
+      <workItem from="1501059366637" duration="1798000" />
+      <workItem from="1501061185103" duration="1833000" />
+      <workItem from="1501063039649" duration="1787000" />
+      <workItem from="1501064847727" duration="725000" />
+      <workItem from="1501067556310" duration="1105000" />
+      <workItem from="1501070445112" duration="1819000" />
+      <workItem from="1501072284568" duration="1789000" />
+      <workItem from="1501128574017" duration="1735000" />
+      <workItem from="1501130390508" duration="1794000" />
+      <workItem from="1501132207216" duration="1786000" />
+      <workItem from="1501134017525" duration="1787000" />
+      <workItem from="1501135827048" duration="1828000" />
+      <workItem from="1501137677750" duration="1286000" />
+      <workItem from="1501140388240" duration="923000" />
+      <workItem from="1501145141830" duration="21000" />
+      <workItem from="1501387767349" duration="1758000" />
+      <workItem from="1501389550967" duration="2004000" />
+      <workItem from="1501559002823" duration="1520000" />
+      <workItem from="1501562435842" duration="2039000" />
+      <workItem from="1501564498553" duration="1787000" />
+      <workItem from="1501566315839" duration="1813000" />
+      <workItem from="1501572312278" duration="2188000" />
+      <workItem from="1501574659217" duration="1788000" />
+      <workItem from="1501576466759" duration="2458000" />
+      <workItem from="1501582514852" duration="1788000" />
+      <workItem from="1501584324399" duration="1788000" />
+      <workItem from="1501586132930" duration="1564000" />
+      <workItem from="1501588595577" duration="1789000" />
+      <workItem from="1501590406880" duration="1777000" />
+      <workItem from="1501736335827" duration="6300000" />
+      <workItem from="1501833941739" duration="1092000" />
+      <workItem from="1502085423582" duration="5045000" />
+      <workItem from="1502097802231" duration="521000" />
+      <workItem from="1502098337618" duration="9909000" />
+      <workItem from="1502166484081" duration="17605000" />
+      <workItem from="1502252863531" duration="2875000" />
+      <workItem from="1502255830382" duration="3286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="359835000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2306003" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04318937" sideWeight="0.5133438" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16246057" sideWeight="0.4866562" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.03764321" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Model/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/hr_account.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/app_users.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/lrp.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="101" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/login_user_edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/lrp_edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/login_users.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/department.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/designation.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/dh_account.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Entity/Designation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Entity/Optin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/fm_account.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="128" column="20" lean-forward="false" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_5th_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_6th_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_7th_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_8th_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_9th_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/payout_10th_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/super_account.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="77" lean-forward="false" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/super_optin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/super_payout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/budget_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Entity/Department.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="66" lean-forward="false" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/hr_optin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-796">
+          <caret line="49" column="110" lean-forward="false" selection-start-line="49" selection-start-column="110" selection-end-line="49" selection-end-column="110" />
+          <folding>
+            <element signature="e#538#546#0#Twig" expanded="false" />
+            <element signature="e#721#737#0#Twig" expanded="false" />
+            <element signature="e#914#923#0#Twig" expanded="false" />
+            <element signature="e#1098#1108#0#Twig" expanded="false" />
+            <element signature="e#2791#5827#0#HTML" expanded="false" />
+            <element signature="e#4415#4431#0#Twig" expanded="false" />
+            <element signature="e#6595#10223#0#HTML" expanded="false" />
+            <element signature="e#8913#8929#0#Twig" expanded="false" />
+            <element signature="e#13309#13325#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/dh_optin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
+            <element signature="e#538#546#0#Twig" expanded="false" />
+            <element signature="e#721#730#0#Twig" expanded="false" />
+            <element signature="e#905#915#0#Twig" expanded="false" />
+            <element signature="e#2579#5229#0#HTML" expanded="false" />
+            <element signature="e#3831#3847#0#Twig" expanded="false" />
+            <element signature="e#6033#8926#0#HTML" expanded="false" />
+            <element signature="e#7628#7644#0#Twig" expanded="false" />
+            <element signature="e#9681#12574#0#HTML" expanded="false" />
+            <element signature="e#11276#11292#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/dh_payout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
+            <element signature="e#538#546#0#Twig" expanded="false" />
+            <element signature="e#721#730#0#Twig" expanded="false" />
+            <element signature="e#905#915#0#Twig" expanded="false" />
+            <element signature="e#2583#5272#0#HTML" expanded="false" />
+            <element signature="e#3858#3875#0#Twig" expanded="false" />
+            <element signature="e#5930#8871#0#HTML" expanded="false" />
+            <element signature="e#7559#7576#0#Twig" expanded="false" />
+            <element signature="e#9620#12216#0#HTML" expanded="false" />
+            <element signature="e#10903#10920#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/admin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/before_loyalty.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/department_head.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/eight_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/eleventh_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/fifth_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/finance_manager.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/fourth_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="36" column="21" lean-forward="false" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/hr_manager.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/ninth_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/seventh_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/sixth_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/super_admin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="43" column="21" lean-forward="false" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/tenth_year.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="17" lean-forward="false" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Resources/views/Default/team_member.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Login/LoginBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="884" column="67" lean-forward="false" selection-start-line="884" selection-start-column="67" selection-end-line="884" selection-end-column="67" />
+          <folding>
+            <element signature="e#1001#1024#1#PHP" expanded="true" />
+            <element signature="e#2829#2858#1#PHP" expanded="true" />
+            <element signature="e#10793#10822#1#PHP" expanded="true" />
+            <element signature="e#15625#15654#1#PHP" expanded="true" />
+            <element signature="e#17490#17516#1#PHP" expanded="true" />
+            <element signature="e#17855#17884#1#PHP" expanded="true" />
+            <element signature="e#18193#18223#1#PHP" expanded="true" />
+            <element signature="e#18629#18655#1#PHP" expanded="true" />
+            <element signature="e#22533#22559#1#PHP" expanded="true" />
+            <element signature="e#22898#22927#1#PHP" expanded="true" />
+            <element signature="e#23364#23390#1#PHP" expanded="true" />
+            <element signature="e#25073#25099#1#PHP" expanded="true" />
+            <element signature="e#26813#26840#1#PHP" expanded="true" />
+            <element signature="e#28387#28413#1#PHP" expanded="true" />
+            <element signature="e#28807#28833#1#PHP" expanded="true" />
+            <element signature="e#30516#30542#1#PHP" expanded="true" />
+            <element signature="e#32232#32259#1#PHP" expanded="true" />
+            <element signature="e#33802#33828#1#PHP" expanded="true" />
+            <element signature="e#34222#34248#1#PHP" expanded="true" />
+            <element signature="e#35931#35957#1#PHP" expanded="true" />
+            <element signature="e#37645#37672#1#PHP" expanded="true" />
+            <element signature="e#39214#39240#1#PHP" expanded="true" />
+            <element signature="e#39634#39660#1#PHP" expanded="true" />
+            <element signature="e#41343#41369#1#PHP" expanded="true" />
+            <element signature="e#43058#43085#1#PHP" expanded="true" />
+            <element signature="e#44627#44653#1#PHP" expanded="true" />
+            <element signature="e#45047#45073#1#PHP" expanded="true" />
+            <element signature="e#46756#46782#1#PHP" expanded="true" />
+            <element signature="e#48471#48498#1#PHP" expanded="true" />
+            <element signature="e#49653#54978#0#PHP" expanded="false" />
+            <element signature="e#50040#50066#1#PHP" expanded="true" />
+            <element signature="e#50461#50487#1#PHP" expanded="true" />
+            <element signature="e#52172#52198#1#PHP" expanded="true" />
+            <element signature="e#53888#53915#1#PHP" expanded="true" />
+            <element signature="e#55003#58447#0#PHP" expanded="false" />
+            <element signature="e#55265#55291#1#PHP" expanded="true" />
+            <element signature="e#55686#55712#1#PHP" expanded="true" />
+            <element signature="e#57398#57424#1#PHP" expanded="true" />
+            <element signature="e#60593#60622#1#PHP" expanded="true" />
+            <element signature="e#68904#68933#1#PHP" expanded="true" />
+            <element signature="e#74090#74119#1#PHP" expanded="true" />
+            <element signature="e#76072#76098#1#PHP" expanded="true" />
+            <element signature="e#76457#76486#1#PHP" expanded="true" />
+            <element signature="e#76811#76841#1#PHP" expanded="true" />
+            <element signature="e#77267#77293#1#PHP" expanded="true" />
+            <element signature="e#81407#81433#1#PHP" expanded="true" />
+            <element signature="e#81792#81821#1#PHP" expanded="true" />
+            <element signature="e#82282#82308#1#PHP" expanded="true" />
+            <element signature="e#84087#84113#1#PHP" expanded="true" />
+            <element signature="e#85927#85954#1#PHP" expanded="true" />
+            <element signature="e#87601#87627#1#PHP" expanded="true" />
+            <element signature="e#88045#88071#1#PHP" expanded="true" />
+            <element signature="e#89850#89876#1#PHP" expanded="true" />
+            <element signature="e#91666#91693#1#PHP" expanded="true" />
+            <element signature="e#93336#93362#1#PHP" expanded="true" />
+            <element signature="e#93780#93806#1#PHP" expanded="true" />
+            <element signature="e#95585#95611#1#PHP" expanded="true" />
+            <element signature="e#97399#97426#1#PHP" expanded="true" />
+            <element signature="e#99068#99094#1#PHP" expanded="true" />
+            <element signature="e#99512#99538#1#PHP" expanded="true" />
+            <element signature="e#101317#101343#1#PHP" expanded="true" />
+            <element signature="e#103132#103159#1#PHP" expanded="true" />
+            <element signature="e#104797#104823#1#PHP" expanded="true" />
+            <element signature="e#105241#105267#1#PHP" expanded="true" />
+            <element signature="e#107046#107072#1#PHP" expanded="true" />
+            <element signature="e#108861#108888#1#PHP" expanded="true" />
+            <element signature="e#110530#110556#1#PHP" expanded="true" />
+            <element signature="e#110975#111001#1#PHP" expanded="true" />
+            <element signature="e#112782#112808#1#PHP" expanded="true" />
+            <element signature="e#114598#114625#1#PHP" expanded="true" />
+            <element signature="e#116123#116149#1#PHP" expanded="true" />
+            <element signature="e#116544#116570#1#PHP" expanded="true" />
+            <element signature="e#118256#118282#1#PHP" expanded="true" />
+            <element signature="e#120092#120115#1#PHP" expanded="true" />
+            <element signature="e#120684#120707#1#PHP" expanded="true" />
+            <element signature="e#122583#122607#1#PHP" expanded="true" />
+            <element signature="e#125279#125308#1#PHP" expanded="true" />
+            <element signature="e#127801#127830#1#PHP" expanded="true" />
+            <element signature="e#129582#129611#1#PHP" expanded="true" />
+            <element signature="e#132111#132140#1#PHP" expanded="true" />
+            <element signature="e#138687#138711#1#PHP" expanded="true" />
+            <element signature="e#139641#139668#1#PHP" expanded="true" />
+            <element signature="e#140604#140631#1#PHP" expanded="true" />
+            <element signature="e#141591#141618#1#PHP" expanded="true" />
+            <element signature="e#142601#142628#1#PHP" expanded="true" />
+            <element signature="e#143296#143323#1#PHP" expanded="true" />
+            <element signature="e#143731#143757#1#PHP" expanded="true" />
+            <element signature="e#144960#144984#1#PHP" expanded="true" />
+            <element signature="e#147219#147248#1#PHP" expanded="true" />
+            <element signature="e#147691#147715#1#PHP" expanded="true" />
+            <element signature="e#147974#148000#1#PHP" expanded="true" />
+            <element signature="e#148531#148561#1#PHP" expanded="true" />
+            <element signature="e#148885#148911#1#PHP" expanded="true" />
+            <element signature="e#149356#149382#1#PHP" expanded="true" />
+            <element signature="e#149704#149730#1#PHP" expanded="true" />
+            <element signature="e#151126#151152#1#PHP" expanded="true" />
+            <element signature="e#151627#151653#1#PHP" expanded="true" />
+            <element signature="e#151975#152001#1#PHP" expanded="true" />
+            <element signature="e#153396#153422#1#PHP" expanded="true" />
+            <element signature="e#153897#153923#1#PHP" expanded="true" />
+            <element signature="e#154245#154271#1#PHP" expanded="true" />
+            <element signature="e#155666#155692#1#PHP" expanded="true" />
+            <element signature="e#156167#156193#1#PHP" expanded="true" />
+            <element signature="e#156515#156541#1#PHP" expanded="true" />
+            <element signature="e#157936#157962#1#PHP" expanded="true" />
+            <element signature="e#158437#158463#1#PHP" expanded="true" />
+            <element signature="e#158785#158811#1#PHP" expanded="true" />
+            <element signature="e#160206#160232#1#PHP" expanded="true" />
+            <element signature="e#160708#160734#1#PHP" expanded="true" />
+            <element signature="e#161057#161083#1#PHP" expanded="true" />
+            <element signature="e#162480#162506#1#PHP" expanded="true" />
+            <element signature="e#162983#163009#1#PHP" expanded="true" />
+            <element signature="e#163332#163358#1#PHP" expanded="true" />
+            <element signature="e#164756#164782#1#PHP" expanded="true" />
+            <element signature="e#171278#171305#1#PHP" expanded="true" />
+            <element signature="e#173321#173350#1#PHP" expanded="true" />
+            <element signature="e#180493#180522#1#PHP" expanded="true" />
+            <element signature="e#182936#182963#1#PHP" expanded="true" />
+            <element signature="e#186596#186619#1#PHP" expanded="true" />
+            <element signature="e#188502#188532#1#PHP" expanded="true" />
+            <marker date="1502258524274" expanded="true" signature="125375:125829" ph="SELECT * FRO... LoginLoginBundle" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

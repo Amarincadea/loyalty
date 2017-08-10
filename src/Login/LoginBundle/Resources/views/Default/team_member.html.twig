@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <br/>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+                <ul class="nav nav-pills flex-column text-white">
+                    <li class="nav-item">
+                        <br/>
+                        <a class="nav-link text-white bg-warning" href="/"><h5>My Menu</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="card-block outline-warning">
+                            <div class="card-title text-warning"><h5>Switch your account</h5></div>
+                            {% for all in all_roles %}
+                                <ul class="list-group">
+                                    <li class="list-group-item text-warning">
+                                        <form method="POST" action="{{ path('login') }}">
+                                            <input type="hidden" name="email" value="{{ all.userName }}">
+                                            <input type="hidden" name="pwd" value="{{ all.userPassword }}">
+                                            <input type="hidden" name="role" value="{{ all.userRole }}">
+                                            <input type="hidden" name="remember" value="remember-me">
+                                            <button class="btn btn-block" type="submit">{{ all.userRole }}</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            {% endfor %}
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">Hi <span class="text-warning"> {{ name }}</span>,you have logged in as <span class="text-warning">{{ userRole }}</span></li>
+                </ol>
+            </main>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+{% endblock %}

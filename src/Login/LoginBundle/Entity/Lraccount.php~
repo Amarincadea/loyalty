@@ -1,0 +1,83 @@
+<?php
+
+namespace Login\LoginBundle\Entity;
+
+/**
+ * Lraccount
+ */
+class Lraccount
+{
+    /**
+     * @var string
+     */
+    private $eid;
+
+    /**
+     * @var string
+     */
+    private $lrbal;
+
+    /**
+     * @var integer
+     */
+    private $lrid;
+
+
+    /**
+     * Set eid
+     *
+     * @param string $eid
+     *
+     * @return Lraccount
+     */
+    public function setEid($eid)
+    {
+        $this->eid = $eid;
+
+        return $this;
+    }
+
+    /**
+     * Get eid
+     *
+     * @return string
+     */
+    public function getEid()
+    {
+        return $this->eid;
+    }
+
+    /**
+     * Set lrbal
+     *
+     * @param string $lrbal
+     *
+     * @return Lraccount
+     */
+    public function setLrbal($lrbal)
+    {
+        $this->lrbal = $lrbal;
+
+        return $this;
+    }
+
+    /**
+     * Get lrbal
+     *
+     * @return string
+     */
+    public function getLrbal()
+    {
+        return $this->lrbal;
+    }
+
+    /**
+     * Get lrid
+     *
+     * @return integer
+     */
+    public function getLrid()
+    {
+        return $this->lrid;
+    }
+}

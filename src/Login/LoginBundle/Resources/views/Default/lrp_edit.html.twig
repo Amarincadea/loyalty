@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <br/>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+                <ul class="nav nav-pills flex-column text-white">
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-warning" href="{{ path('login_login_homepage') }}"><h5>My Dashboard</h5></a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">Home / LRP Model </li>
+                </ol>
+                <div class="card">
+                    <div class="card">
+                        <div class="card-block">
+                            <form  method="POST" action="{{ path('lrp_edit_save',{'id': lrp.lrpId}) }}">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Loyalty Percentage</label>
+                                    <input type="text"  class="form-control" id="job_title" aria-describedby="emailHelp" placeholder="Loyalty percentage" name="loyalty" value="{{ lrp.lrpRewardPercentage }}" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleTextarea">Minimum Withdrawable</label>
+                                    <input type="text"  class="form-control" id="job_title" aria-describedby="emailHelp" placeholder="Min" name="min" value="{{ lrp.minPercentage }}" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleTextarea">Maximum Withdrawable</label>
+                                    <input type="text"  class="form-control" id="job_title" aria-describedby="emailHelp" placeholder="Max" name="max" value="{{ lrp.maxPercentage }}" required>
+                                </div>
+                                <button type="submit" class="btn btn-warning">Save</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+{% endblock %}

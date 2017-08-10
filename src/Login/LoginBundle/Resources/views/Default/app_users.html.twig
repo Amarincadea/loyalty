@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <br/>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+                <ul class="nav nav-pills flex-column text-white">
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-warning" href="{{ path('login_login_homepage') }}"><h5>My Dashboard</h5></a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">Home / Incadea Members</li>
+                </ol>
+                <div class="card">
+                    <div class="card-block">
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Date Of Joining</th>
+                                <th>Official Email</th>
+                                <th>Designation</th>
+                                <th>Department</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for user in user %}
+                                <tr>
+                                    <td>{{ user.itNo }}</td>
+                                    <td>{{ user.tmName }}</td>
+                                    <td>{{ user.tmDoj }}</td>
+                                    <td>{{ user.tmEmail }}</td>
+                                    <td>{{ user.tmDesignation }}</td>
+                                    <td>{{ user.tmDepartment }}</td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+{% endblock %}

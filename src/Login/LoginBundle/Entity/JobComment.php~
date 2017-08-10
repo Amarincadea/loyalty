@@ -1,0 +1,83 @@
+<?php
+
+namespace Login\LoginBundle\Entity;
+
+/**
+ * JobComment
+ */
+class JobComment
+{
+    /**
+     * @var integer
+     */
+    private $jobTd;
+
+    /**
+     * @var string
+     */
+    private $comment;
+
+    /**
+     * @var integer
+     */
+    private $id;
+
+
+    /**
+     * Set jobTd
+     *
+     * @param integer $jobTd
+     *
+     * @return JobComment
+     */
+    public function setJobTd($jobTd)
+    {
+        $this->jobTd = $jobTd;
+
+        return $this;
+    }
+
+    /**
+     * Get jobTd
+     *
+     * @return integer
+     */
+    public function getJobTd()
+    {
+        return $this->jobTd;
+    }
+
+    /**
+     * Set comment
+     *
+     * @param string $comment
+     *
+     * @return JobComment
+     */
+    public function setComment($comment)
+    {
+        $this->comment = $comment;
+
+        return $this;
+    }
+
+    /**
+     * Get comment
+     *
+     * @return string
+     */
+    public function getComment()
+    {
+        return $this->comment;
+    }
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+}

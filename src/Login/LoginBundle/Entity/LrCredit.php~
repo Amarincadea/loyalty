@@ -1,0 +1,141 @@
+<?php
+
+namespace Login\LoginBundle\Entity;
+
+/**
+ * LrCredit
+ */
+class LrCredit
+{
+    /**
+     * @var string
+     */
+    private $eid;
+
+    /**
+     * @var integer
+     */
+    private $percentage;
+
+    /**
+     * @var string
+     */
+    private $indecimal;
+
+    /**
+     * @var \DateTime
+     */
+    private $lrcdate = 'CURRENT_TIMESTAMP';
+
+    /**
+     * @var integer
+     */
+    private $lcid;
+
+
+    /**
+     * Set eid
+     *
+     * @param string $eid
+     *
+     * @return LrCredit
+     */
+    public function setEid($eid)
+    {
+        $this->eid = $eid;
+
+        return $this;
+    }
+
+    /**
+     * Get eid
+     *
+     * @return string
+     */
+    public function getEid()
+    {
+        return $this->eid;
+    }
+
+    /**
+     * Set percentage
+     *
+     * @param integer $percentage
+     *
+     * @return LrCredit
+     */
+    public function setPercentage($percentage)
+    {
+        $this->percentage = $percentage;
+
+        return $this;
+    }
+
+    /**
+     * Get percentage
+     *
+     * @return integer
+     */
+    public function getPercentage()
+    {
+        return $this->percentage;
+    }
+
+    /**
+     * Set indecimal
+     *
+     * @param string $indecimal
+     *
+     * @return LrCredit
+     */
+    public function setIndecimal($indecimal)
+    {
+        $this->indecimal = $indecimal;
+
+        return $this;
+    }
+
+    /**
+     * Get indecimal
+     *
+     * @return string
+     */
+    public function getIndecimal()
+    {
+        return $this->indecimal;
+    }
+
+    /**
+     * Set lrcdate
+     *
+     * @param \DateTime $lrcdate
+     *
+     * @return LrCredit
+     */
+    public function setLrcdate($lrcdate)
+    {
+        $this->lrcdate = $lrcdate;
+
+        return $this;
+    }
+
+    /**
+     * Get lrcdate
+     *
+     * @return \DateTime
+     */
+    public function getLrcdate()
+    {
+        return $this->lrcdate;
+    }
+
+    /**
+     * Get lcid
+     *
+     * @return integer
+     */
+    public function getLcid()
+    {
+        return $this->lcid;
+    }
+}

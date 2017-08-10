@@ -1,0 +1,86 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <br/>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+                <ul class="nav nav-pills flex-column text-white">
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-warning" href="{{ path('login_login_homepage') }}"><h5>My Dashboard</h5></a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">Home / Incadea Members</li>
+                </ol>
+                <div class="card">
+                    <div class="card-block">
+                        <div class="card-title">Add New Roles To User</div>
+                        <form class="form-inline" method="post" action="{{ path('login_user_edit_save') }}">
+                            <div class="form-group">
+                                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                    <select class="form-control" id="department" name="staff_id" required>
+                                        <option  disabled="disabled" selected="selected">Select Staff ID</option>
+                                        {% for staff_details in staff %}
+                                            <option>{{ staff_details.itNo }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                    <select class="form-control" id="department" name="email" required>
+                                        <option  disabled="disabled" selected="selected">Select Official Email</option>
+                                        {% for staff_details in staff %}
+                                            <option>{{ staff_details.tmEmail }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control" name="role" required>
+                                        <option  disabled="disabled" selected="selected">Select Role</option>
+                                        <option>Team Member</option>
+                                        <option>Finance Manager</option>
+                                        <option>HR Manager</option>
+                                        <option>Department Head</option>
+                                        <option>Admin</option>
+                                        <option>Super Admin</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-warning">Create Login</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-block">
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Official Email</th>
+                                <th>Roles</th>
+                                <th>Action</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for login in user_logins %}
+                                <tr>
+                                   <td>{{ login.teamId }}</td>
+                                    <td>{{ login.userName }}</td>
+                                    <td>{{ login.userRole }}</td>
+                                    <td><a class="btn btn-danger" href="/login_user_remove/{{ login.userId }}" role="button">Remove</a></td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <br/>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+                <ul class="nav nav-pills flex-column text-white">
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-warning" href="/"><h5>My Menu</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="{{ path('profile') }}"><h5>My Profile</h5></a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">Home</li>
+                </ol>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <h4 class="card-header">My Profile</h4>
+                            <div class="card-block">
+                                <table class="table">
+                                    <tr>
+                                        <th><h5>Name</h5></th>
+                                        <td><h5>:</h5></td>
+                                        <td><h5>{{ profile.tmName }}</h5></td>
+                                    </tr>
+                                    <tr>
+                                        <th><h5>Company ID</h5></th>
+                                        <td><h5>:</h5></td>
+                                        <td><h5>{{ profile.itNo }}</h5></td>
+                                    </tr>
+                                    <tr>
+                                        <th><h5>Email</h5></th>
+                                        <td><h5>:</h5></td>
+                                        <td><h5>{{ profile.tmEmail }}</h5></td>
+                                    </tr>
+                                    <tr>
+                                        <th><h5>Date Of Joined</h5></th>
+                                        <td><h5>:</h5></td>
+                                        <td><h5>{{ profile.tmDoj }}</h5></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+{% endblock %}
+{% block javascripts %}
+{% endblock %}

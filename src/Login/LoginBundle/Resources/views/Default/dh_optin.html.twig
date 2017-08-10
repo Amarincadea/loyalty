@@ -1,0 +1,216 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <br/>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+                <ul class="nav nav-pills flex-column text-white">
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-warning" href="#"><h5>My Menu</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="{{ path('dh_optin') }}"><h5>Opt-In Request</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="{{ path('dh_payout') }}"><h5>Payout Request</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="{{ path('dh_account') }}"><h5>Accounts</h5></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">Home / Opt-In </li>
+                </ol>
+
+               <div class="card">
+                   <ul class="nav nav-tabs" id="myTab" role="tablist">
+                       <li class="nav-item">
+                           <a class="nav-link active" data-toggle="tab" href="#pending" role="tab" aria-controls="pending">Pending Optin Requests</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" data-toggle="tab" href="#approved" role="tab" aria-controls="approved">Approved Optin Requests</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" data-toggle="tab" href="#rejected" role="tab" aria-controls="rejected">Rejected Optin Requests</a>
+                       </li>
+                   </ul><br/>
+
+                   <div class="tab-content">
+                       <div class="tab-pane active" id="pending" role="tabpanel">
+                           <!--job position-->
+                           <div class="row">
+                               {% for optins in optin_details %}
+                                   <div class="col-sm-6">
+                                       <div class="card">
+                                           <h4 class="card-header">{{ optins.tmName }}/{{ optins.tmId }}</h4>
+
+                                           <div class="card-block">
+                                               <table class="table">
+                                                   <tr>
+                                                       <th>Designtion</th>
+                                                       <td>:</td>
+                                                       <td>{{ optins.tmDesignation }}</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <th>Opted On</th>
+                                                       <td>:</td>
+                                                       <td>{{ optins.oiDate }}</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <th>Status</th>
+                                                       <td>:</td>
+                                                       <td>{{ optins.dhStatus }}</td>
+                                                   </tr>
+                                               </table>
+                                               <form  method="POST" action="{{ path('dh_optin_approve', {'id': optins.oiId}) }}">
+                                                   <div class="form-group">
+                                                       <label for="exampleSelect2">Status</label>
+                                                       <select class="form-control" id="exampleSelect2" name="status" required>
+                                                           <option disabled selected="selected">select status</option>
+                                                           <option value="Approved">Approve</option>
+                                                           <option value="Rejected">Reject</option>
+                                                       </select>
+                                                   </div>
+                                                   <div class="form-group">
+                                                       <label for="exampleTextarea">Comment here:</label>
+                                                       <textarea class="form-control" id="exampleTextarea" name="comment" rows="3"></textarea>
+                                                   </div>
+                                                   <button class="btn btn-outline-warning" type="submit">Submit</button>
+                                               </form>
+                                           </div>
+
+                                       </div>
+                                   </div>
+                               {% endfor %}
+                           </div>
+                           <!--end job positions-->
+
+                       </div>
+                       <div class="tab-pane" id="approved" role="tabpanel">
+                           <!--job position-->
+                           <div class="row">
+                               {% for optins in optin_approved %}
+                                   <div class="col-sm-6">
+                                       <div class="card">
+                                           <h4 class="card-header">{{ optins.tmName }}/{{ optins.tmId }}
+                                           </h4>
+
+                                                <div class="card-block">
+                                               <table class="table">
+                                                   <tr>
+                                                       <th>Designtion</th>
+                                                       <td>:</td>
+                                                       <td>{{ optins.tmDesignation }}</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <th>Opted On</th>
+                                                       <td>:</td>
+                                                       <td>{{ optins.oiDate }}</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <th>Status</th>
+                                                       <td>:</td>
+                                                       <td>{{ optins.dhStatus }}</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <th>Your Comment</th>
+                                                       <td>:</td>
+                                                       <td>{{ optins.dhComment }}</td>
+                                                   </tr>
+                                               </table>
+                                               <form  method="POST" action="{{ path('dh_optin_approve', {'id': optins.oiId}) }}">
+                                                   <div class="form-group">
+                                                       <label for="exampleSelect2">Status</label>
+                                                       <select class="form-control" id="exampleSelect2" name="status" required>
+                                                           <option disabled selected="selected">select status</option>
+                                                           <option value="Rejected">Reject</option>
+                                                       </select>
+                                                   </div>
+                                                   <div class="form-group">
+                                                       <label for="exampleTextarea">Comment here:</label>
+                                                       <textarea class="form-control" id="exampleTextarea" name="comment" rows="3"></textarea>
+                                                   </div>
+                                                   <button class="btn btn-outline-warning" type="submit">Submit</button>
+                                               </form>
+
+                                           </div>
+
+                                       </div>
+                                   </div>
+                               {% endfor %}
+                           </div>
+                           <!--end job positions-->
+
+                       </div>
+                       <div class="tab-pane" id="rejected" role="tabpanel">
+                           <!--job position-->
+                           <div class="row">
+                               {% for optins in optin_rejected %}
+                                   <div class="col-sm-6">
+                                       <div class="card">
+                                           <h4 class="card-header">{{ optins.tmName }}/{{ optins.tmId }}</h4>
+
+                                           <div class="card-block">
+                                               <table class="table">
+                                                   <tr>
+                                                       <th>Designtion</th>
+                                                       <td>:</td>
+                                                       <td>{{ optins.tmDesignation }}</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <th>Opted On</th>
+                                                       <td>:</td>
+                                                       <td>{{ optins.oiDate }}</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <th>Status</th>
+                                                       <td>:</td>
+                                                       <td>{{ optins.dhStatus }}</td>
+                                                   </tr>
+                                                   <tr>
+                                                       <th>Your Comment</th>
+                                                       <td>:</td>
+                                                       <td>{{ optins.dhComment }}</td>
+                                                   </tr>
+                                               </table>
+                                               <form  method="POST" action="{{ path('dh_optin_approve', {'id': optins.oiId}) }}">
+                                                   <div class="form-group">
+                                                       <label for="exampleSelect2">Status</label>
+                                                       <select class="form-control" id="exampleSelect2" name="status" required>
+                                                           <option disabled selected="selected">select status</option>
+                                                           <option value="Approved">Approve</option>
+                                                       </select>
+                                                   </div>
+                                                   <div class="form-group">
+                                                       <label for="exampleTextarea">Comment here:</label>
+                                                       <textarea class="form-control" id="exampleTextarea" name="comment" rows="3"></textarea>
+                                                   </div>
+                                                   <button class="btn btn-outline-warning" type="submit">Submit</button>
+                                               </form>
+                                           </div>
+                                           </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               {% endfor %}
+                           </div>
+                           <!--end job positions-->
+
+                       </div>
+                   </div>
+
+                   <script>
+                       $(function () {
+                           $('#myTab a:last').tab('show')
+                       })
+                   </script>
+               </div>
+            </main>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+{% endblock %}

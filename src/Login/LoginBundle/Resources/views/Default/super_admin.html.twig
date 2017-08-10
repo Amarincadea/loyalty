@@ -1,0 +1,104 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <br/>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar">
+                <ul class="nav nav-pills flex-column text-white">
+                    <li class="nav-item">
+                        <a class="nav-link text-white bg-warning" href="#"><h5>My Menu</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="{{ path('super_optin') }}"><h5>Opt-In Request</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="{{ path('super_payout') }}"><h5>Payout Request</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="{{ path('dh_account') }}"><h5>Accounts</h5></a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="card-block outline-warning">
+                            <div class="card-title text-warning"><h5>Switch your account</h5></div>
+                            {% for all in all_roles %}
+                                <ul class="list-group">
+                                    <li class="list-group-item text-warning">
+                                        <form method="POST" action="{{ path('login') }}">
+                                            <input type="hidden" name="email" value="{{ all.userName }}">
+                                            <input type="hidden" name="pwd" value="{{ all.userPassword }}">
+                                            <input type="hidden" name="role" value="{{ all.userRole }}">
+                                            <input type="hidden" name="remember" value="remember-me">
+                                            <button class="btn btn-block" type="submit">{{ all.userRole }}</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            {% endfor %}
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+            <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">Hi <span class="text-warning"> {{ name }}</span>,you have logged in as <span class="text-warning">{{ userRole }}</span></li>
+                </ol>
+                     <div class="card">
+                    <div class="card-header">
+                        Optin Requests
+                    </div>
+                    <div class="card-block">
+                        <div class="row">
+                            <div class="col card">
+                                <div class="card-block">
+                                    <h4 class="card-title">{{ opt_pending }}</h4>
+                                    <p class="card-text">Pending Requests</p>
+                                </div>
+                            </div>
+                            <div class="col card">
+                                <div class="card-block">
+                                    <h4 class="card-title">{{ opt_approved }}</h4>
+                                    <p class="card-text">Approved Requests</p>
+                                </div>
+                            </div>
+                            <div class="col card">
+                                <div class="card-block">
+                                    <h4 class="card-title">{{ opt_rejected }}</h4>
+                                    <p class="card-text">Rejected Requests</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                     <div class="card">
+                    <div class="card-header">
+                        Payout Requests
+                    </div>
+                    <div class="card-block">
+                        <div class="row">
+                            <div class="col card">
+                                <div class="card-block">
+                                    <h4 class="card-title">{{ pay_pending }}</h4>
+                                    <p class="card-text">Pending Requests</p>
+                                </div>
+                            </div>
+                            <div class="col card">
+                                <div class="card-block">
+                                    <h4 class="card-title">{{ pay_approved }}</h4>
+                                    <p class="card-text">Approved Requests</p>
+                                </div>
+                            </div>
+                            <div class="col card">
+                                <div class="card-block">
+                                    <h4 class="card-title">{{ pay_rejected }}</h4>
+                                    <p class="card-text">Rejected Requests</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+{% endblock %}
+{% block javascripts %}
+{% endblock %}
